@@ -8,8 +8,8 @@ Befor you build the code ,you need to keep the rocksdb intalled.
 - `brew install rocksdb`
 - `make`
 ### Linux
-`cd rocksdb;make shared_lib -j; cp librocksdb* /user/lib64`
-`cd PersistentHttpserver; make`
+- `cd rocksdb;make shared_lib -j; cp librocksdb* /user/lib64`
+- `cd PersistentHttpserver; make`
 
 ## RUN
 - first console: `./httpserver`
